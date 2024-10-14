@@ -11,5 +11,12 @@ use u375466133_c5Hvp;
 
 -- Mostrar las tablas de la base de datos
 show tables;
+-- Muestra la estructura de una tabla.
+describe clientes;
+
+-- Mostramos a todas las filas y columnas de todos.
+select * from CLIENTES;
+-- Limitamos a nombre y solo dos filas.
+select nombre from CLIENTES order by celular  limit 2;
 
 
